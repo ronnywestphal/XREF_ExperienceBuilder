@@ -12,6 +12,7 @@ using UnityEngine.UIElements;
 using AssetBundleBrowser.AssetBundleDataSource;
 using PlasticGui.WorkspaceWindow.CodeReview;
 
+
 public class PluginEditor : EditorWindow
 {
     JObject parsedResponse;
@@ -324,8 +325,9 @@ public class PluginEditor : EditorWindow
 
     void OnDestroy()
     {
-        CoroutineRunner.Instance.StopAllCoroutines();
+        CoroutineRunner.DestroyInstance();
     }
+    
     [System.Serializable]
     private class LoginData
     {
