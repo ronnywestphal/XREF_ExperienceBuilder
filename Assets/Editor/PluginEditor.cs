@@ -55,8 +55,7 @@ public class PluginEditor : EditorWindow
 
         Button button = new Button(() =>
         {
-            //CoroutineRunner.Instance.StartCoroutine(AuthenticateUser(emailField.value, passwordField.value));
-            CoroutineRunner.Instance.StartCoroutine(AuthenticateUser("west.ronny89@gmail.com", "Ron.West95!"));
+            CoroutineRunner.Instance.StartCoroutine(AuthenticateUser(emailField.value, passwordField.value));
         });
         button.style.height = 30;
         button.text = "Sign In";
@@ -327,7 +326,7 @@ public class PluginEditor : EditorWindow
     {
         CoroutineRunner.DestroyInstance();
     }
-    
+
     [System.Serializable]
     private class LoginData
     {
