@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7008122495860141061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1353270608241738973}
+  - component: {fileID: 3334261726930282070}
+  - component: {fileID: 5905597655842872328}
+  - component: {fileID: 6757842410958151335}
+  - component: {fileID: 6826988416895975707}
+  m_Layer: 0
+  m_Name: Main
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1353270608241738973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7008122495860141061}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3334261726930282070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7008122495860141061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"prefab","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 5280248727645134539, guid: 73fbc7b86e7c3459d905e4ff36c786aa, type: 3}
+--- !u!114 &5905597655842872328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7008122495860141061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 68941822cede142e3a5cf72f85a131d3, type: 2}
+--- !u!114 &6757842410958151335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7008122495860141061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e178f0836a5f4006b6ea3c101d328e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  realtimeDataManager: {fileID: 0}
+  userPresenceManager: {fileID: 0}
+  userGroupingManager: {fileID: 0}
+  pairingManager: {fileID: 0}
+  settings: {fileID: 11400000, guid: 0935a2323b11c4d1cac8071d3d6109d5, type: 2}
+  OnInitialized:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &6826988416895975707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7008122495860141061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b150b835d7a8e4b56b6cf9d78bfe43f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapLength: 0
+  mapTouch_Bottom: 0
+  mapTouch_Top: 0
+  minTouchLimit: 100
+  maxTouchLimit: 100
+  namedLayerMasks: []
+  OnHit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMultipleHits:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTouch:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTap:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSecondFingerEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTwoFingerTouch:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEndTouch:
+    m_PersistentCalls:
+      m_Calls: []

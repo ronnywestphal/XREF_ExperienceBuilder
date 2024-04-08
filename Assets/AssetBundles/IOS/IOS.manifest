@@ -1,0 +1,8 @@
+ManifestFileVersion: 0
+UnityVersion: 2023.2.6f1
+CRC: 256583835
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: main
+      Dependencies: {}

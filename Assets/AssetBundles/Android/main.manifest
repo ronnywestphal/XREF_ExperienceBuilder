@@ -1,0 +1,71 @@
+ManifestFileVersion: 0
+UnityVersion: 2023.2.6f1
+CRC: 317647222
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8136521bf8f0743c06ae6af55bddac04
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: adf6e56f0b864f5959d00da4d70e5ccc
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6fadb9f31b5f1f208f5ca95d41195f9b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 039f7543ee8af46d9b7ef60bdf09ada4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b150b835d7a8e4b56b6cf9d78bfe43f2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e178f0836a5f4006b6ea3c101d328e9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.VisualScripting.Core
+  ClassName: Unity.VisualScripting.SerializationData
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent`1
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent`2
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Vector3
+- AssemblyName: UnityEngine.InputLegacyModule
+  ClassName: UnityEngine.Touch
+- AssemblyName: XREF.Core
+  ClassName: XREF.XR.ContentSettings/OcclusionSettings
+- AssemblyName: XREF.Core
+  ClassName: XREF.XR.ContentSettings/ReflectionSettings
+- AssemblyName: XREF.Core
+  ClassName: XREF.XR.ContentSettings/RepositionType
+Assets:
+- Assets/Artwork/ColorPalette/Main.prefab
+Dependencies: []

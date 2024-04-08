@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1685203103668060958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8931122847791762298}
+  - component: {fileID: 2044873157667227434}
+  - component: {fileID: 3200423480901764761}
+  m_Layer: 0
+  m_Name: PersistencyTestBundle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8931122847791762298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685203103668060958}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2044873157667227434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685203103668060958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e178f0836a5f4006b6ea3c101d328e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  realtimeDataManager: {fileID: 0}
+  userPresenceManager: {fileID: 0}
+  userGroupingManager: {fileID: 0}
+  pairingManager: {fileID: 0}
+  settings: {fileID: 11400000, guid: 64d7c00c474d7e1428d847aff3151b89, type: 2}
+  OnInitialized:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &3200423480901764761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685203103668060958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b231ebf8c36ae4d67a2df0b067089b56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experience: {fileID: 2044873157667227434}
+  persistentObjectPrefabs:
+  - {fileID: 7909011570746707402, guid: a9cee404bde371145a59d4238a2563a0, type: 3}
+  - {fileID: 6547250352837900024, guid: 02ea1340cdad0b14badd87fde9a04611, type: 3}
+  - {fileID: 6434696880496369010, guid: 786b09b83a0a974489aacbec5bdb056f, type: 3}
